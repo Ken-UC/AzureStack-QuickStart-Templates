@@ -49,6 +49,7 @@
             "metadata": {
                 "description": "Product key for SharePoint 2016 required for SharePoint setup. e.g. XXXX-XXXX-XXXX-XXXX "
             }
+            "defaultValue": "NWFM7-QVBRH-C4DR7-844BB-JK82F"
         }
     },
     "variables": {
