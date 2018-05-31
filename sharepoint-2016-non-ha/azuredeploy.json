@@ -7,7 +7,7 @@
             "metadata": {
                 "description": "The domain name"
             },
-            "defaultValue": "contoso.com"
+            "defaultValue": "atraircraft.lcl"
         },
         "sqlServerServiceAccountUserName": {
             "type": "string",
@@ -57,9 +57,9 @@
         "adVMSize": "Standard_A2",
         "sqlVMSize": "Standard_B4ms",
         "spVMSize": "Standard_B4ms",
-        "spassetLocation": "https://raw.githubusercontent.com/Azure/AzureStack-QuickStart-Templates/master/sharepoint-2016-non-ha",
-        "adAssetLocation": "https://raw.githubusercontent.com/Azure/AzureStack-QuickStart-Templates/master/ad-non-ha",
-        "sqlAssetLocation": "https://raw.githubusercontent.com/Azure/AzureStack-QuickStart-Templates/master/sql-2014-non-ha",
+        "spassetLocation": "https://raw.githubusercontent.com/Ken-UC/AzureStack-QuickStart-Templates/ATR/sharepoint-2016-non-ha",
+        "adAssetLocation": "https://raw.githubusercontent.com/Ken-UC/AzureStack-QuickStart-Templates/ATR/ad-non-ha",
+        "sqlAssetLocation": "https://raw.githubusercontent.com/Ken-UC/AzureStack-QuickStart-Templates/ATR/sql-2014-non-ha",
         "location": "[resourceGroup().location]",
         "vmNetworkSubnet": "10.0.0.0/24",
         "virtualNetworkAddressRange": "10.0.0.0/16",
